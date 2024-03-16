@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.contactSection{
+    padding: 30px;
+    padding-top: 5.5em;
+}
+.contactImg{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contactImg img{
+    width: 25em;
+    border-radius: 10px;
+    
+}
+form{
+
+    padding: 30px;
+    width: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(191, 232, 233);
+}
+form h1{
+    text-align: center;
+}
+form ul{
+    justify-content: center;
+    padding: 0px;
+}
+form ul label{
+    font-size: 1em;
+    width: 100%;
+    
+}
+form ul input{
+    width: 100%;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+form ul textarea{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+form button{
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(232, 227, 220);
+}
+form button:hover{
+    background-color: aquamarine;
+    
+}

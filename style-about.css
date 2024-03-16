@@ -1,0 +1,50 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.About{
+  padding: 2em;
+  padding-top: 5.5em;
+}
+.About h1 {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(17, 216, 190);
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 20px;
+  align-items: center;
+}
+.CardImage img {
+  border-radius: 20px;
+  width: 100%;
+}
+.CardDesc {
+  padding: 10px;
+}
+.CardDesc h1 {
+  color: white;
+  justify-content: left;
+}
+
+
+.card:hover{
+  background-color: rgb(96, 148, 148);
+}
+p{
+  color: black;
+}

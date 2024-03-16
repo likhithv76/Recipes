@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Alata", sans-serif;
+}
+.navbar{
+background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 4em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color: rgb(223, 213, 213);
+  
+}
+#logo{
+    font-size: 2em;
+    color: wheat;
+    font-style: italic;
+}
+.navbar ul{
+    display: flex;
+    padding-right: 40px;
+    gap: 20px;
+}
+.navbar ul li{
+    list-style: none;
+}
+
+
+/* Hero */
+.Hero{
+  position: relative;
+    width: 100%;
+    display: flex;
+
+}
+.Hero img{
+    width: 100%;
+}
+.HeroText{
+    position: absolute;
+    padding-top: 5em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   width: 40%;
+}
+.HeroText h1{
+    color: white;
+    justify-content: left;
+    font-size: 4em;
+}
+.HeroText h3{
+    color: white;
+    padding:0 30px;
+    justify-content: left;
+}
+
+.HeroTextImg img{
+    width: 40%;
+    padding: 0 20px;
+    position: absolute;
+}
+/* Today's Special */
+.TodaySpecial{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    
+}
+.TodaySpecial h1,h3{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+.TScontainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 30px;
+columns: 2;
+}
+.TScontainer a{
+    text-decoration: none;
+    color: white;
+}
+.TScontainer a:hover{
+    color: wheat;
+}
+
+.TScardsV{
+    padding: 10px;
+    background: url(Images/Fire.gif);
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: 4em;
+}
+.TScardsNV{
+    padding: 10px;
+    background: url(Images/Fire.gif);
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: 4em;
+}
+.TSdesc{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   padding-top: 30px;
+    align-items: center;
+}
+
+.TSdescImg{ 
+    cursor: pointer;
+}
+
+.Explore{
+    display: flex;
+    flex-wrap: nowrap;
+justify-content: center;
+padding: 20px;
+}
+
+.Explore ul{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    list-style: none;
+}
+.Explore ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+.ExploreText{
+    padding:20px;
+}
+.Explore ul a:hover{
+border-bottom: 1px solid lightseagreen;
+border-width: 3px;
+color: grey;
+}
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: beige;
+    align-items: center;
+}
+.footerImg img{
+    width: 15em;
+    border-radius: 30px;
+}
+.footerDesc p{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.footerDesc input{
+    font-size: 2em;
+    border-radius: 10px;
+    color: brown;
+}
+.footerSM{
+    display: block;
+}
+.footerSM ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+.footerSM ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.footerSM ul li a:hover{
+opacity: 0.8;
+}
+.Copyright{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    align-items: center;
+}

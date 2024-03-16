@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5.5em;
+    padding: 1em;
+    position: relative;
+    align-items: center;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    padding-top: 5.5em;
+    /* position:fixed; */
+ 
+}
+.mainImg{
+    padding: 2em;
+    display: flex;
+    flex-wrap: nowrap;
+justify-content: space-between;
+}
+.mainVid{
+    padding: 2em;
+    width: 100%;
+}
+/* .footer{
+    bottom: 0%;
+    padding-top: 100vh;
+} */
+.main3{
+    padding-top: 5.5em;
+    width: 50%;
+    position: relative;
+}
